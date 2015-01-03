@@ -1,0 +1,28 @@
+{
+  "name": "gossip-object-diff",
+  "version": "0.1.0",
+  "description": "Computes the diff of two objects in gossip-object's internal format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allain/node-gossip-object-diff"
+  },
+  "keywords": [
+    "scuttlebutt gossip-object diff"
+  ],
+  "author": "Allain Lalonde <allain.lalonde@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allain/node-gossip-object-diff/issues"
+  },
+  "dependencies": {
+    "jiff": "^0.7.0"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "gossip-object": "^2.3.3"
+  }
+}
